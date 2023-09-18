@@ -73,3 +73,11 @@ li {
 
   backdrop-filter: blur(60px);
 }
+.form {
+  margin-top: 2%;
+  margin-left: 4%;
+  display: flex;
+}
+.text-input {
+  width: 180px;
+}
