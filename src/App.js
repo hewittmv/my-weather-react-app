@@ -5,7 +5,18 @@ import Search from "./Search";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">VHM</header>
+      <header className="App-header">
+        <h3>Weather App</h3>
+        <img src={logo} className="App-logo" alt="logo" />
+        <a
+          className="github-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open Source Code by Victoria HM
+        </a>
+      </header>
 
       <div className="city-weather">
         <Search />

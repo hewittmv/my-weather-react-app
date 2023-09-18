@@ -1,13 +1,8 @@
 html,
 background {
-  background: linear-gradient(
-    186deg,
-    rgba(5, 241, 232, 1) 0%,
-    rgba(16, 178, 161, 1) 19%,
-    rgba(37, 17, 106, 1) 72%,
-    rgba(37, 17, 106, 1) 93%,
-    rgba(37, 17, 106, 1) 132%
-  );
+  background-image: url("./images/Norway.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
 }
 .App {
   text-align: center;
@@ -32,22 +27,22 @@ h1,
 .App-header,
 .App-footer {
   background-color: #282c34;
-  min-height: 8vh;
+  min-height: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 15px;
   color: white;
+  position: sticky;
 }
 .App-footer {
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0px;
 }
 
 .github-link {
   color: #d78f0a;
-  font-size: 15px;
 }
 
 @keyframes App-logo-spin {
@@ -74,11 +69,7 @@ li {
 }
 .city-weather {
   border: 1px solid grey;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  backdrop-filter: blur(59px);
-  background-image: url("./images/Norway.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
+  margin: 5% 10% 10% 5%;
+
+  backdrop-filter: blur(60px);
 }
