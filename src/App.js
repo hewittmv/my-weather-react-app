@@ -12,6 +12,17 @@ function App() {
       <div className="container">
         <div className="city-Weather">
           <Search />
+          <button>Here</button>
+          <h6>Last Updated: 18/09/23 18:08 </h6>
+          <h2>New York</h2>
+          <p>🌤️ Sunny </p>
+          <div>
+            <ul>
+              <li>Min: 18°C</li>
+              <li>Max: 25°C </li>
+              <li>Wind: 5km/h</li>
+            </ul>
+          </div>
         </div>
       </div>
       <a
