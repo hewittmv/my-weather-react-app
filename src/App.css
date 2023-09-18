@@ -1,7 +1,16 @@
+html,
+background {
+  background: linear-gradient(
+    186deg,
+    rgba(5, 241, 232, 1) 0%,
+    rgba(16, 178, 161, 1) 19%,
+    rgba(37, 17, 106, 1) 72%,
+    rgba(37, 17, 106, 1) 93%,
+    rgba(37, 17, 106, 1) 132%
+  );
+}
 .App {
   text-align: center;
-  background-image: url("./images/Norway.jpg");
-  background-repeat: no-repeat;
 }
 
 h1,
@@ -23,7 +32,7 @@ h1,
 .App-header,
 .App-footer {
   background-color: #282c34;
-  min-height: 10vh;
+  min-height: 8vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,8 +45,9 @@ h1,
   bottom: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.github-link {
+  color: #d78f0a;
+  font-size: 15px;
 }
 
 @keyframes App-logo-spin {
@@ -68,4 +78,7 @@ li {
   margin-left: 10%;
   margin-right: 10%;
   backdrop-filter: blur(59px);
+  background-image: url("./images/Norway.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
 }
