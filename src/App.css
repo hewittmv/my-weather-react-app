@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+  background-image: url("./images/Norway.jpg");
+  background-repeat: no-repeat;
 }
+
 h1,
 .App-logo {
   display: inline-block;
@@ -64,4 +67,5 @@ li {
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
+  backdrop-filter: blur(59px);
 }
