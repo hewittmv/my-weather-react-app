@@ -54,11 +54,11 @@ h1,
   }
 }
 button {
-  border: 1px solid #fff;
-  background-color: #fb9961;
+  border: 1px solid #ecd2d2;
+  background-color: #db5110;
   border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
-  box-shadow: 0px 1px 1px #a14008;
-  padding: 3%;
+  box-shadow: 0px 0px 0px 1px #ca1010, 1px 0px 0px 2px #86200f;
+  padding: 2%;
   transform: rotate(135deg);
   font-weight: bold;
   font-size: 15px;
@@ -67,6 +67,7 @@ button {
   margin-left: 20%;
   margin-top: 1%;
 }
+
 li {
   list-style: none;
 }
@@ -87,5 +88,7 @@ li {
 }
 .search-button {
   height: 30px;
+
+  color: #1a1a14;
   box-shadow: 0 1px 1px #163772, 0 2px 2px #c96508, 0 3px 3px #784606;
 }
