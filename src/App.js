@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <div className="container">
-        <div className="city-Weather">
+        <div className="city-weather">
           <Search />
           <button></button>
           <h6>Last Updated: 18/09/23 18:08 </h6>

@@ -56,6 +56,12 @@ button {
   font-size: 15px;
   cursor: pointer;
 }
-.map-pin-icon {
-  transform: rotate(20deg);
+li {
+  list-style: none;
+}
+.city-weather {
+  border: 1px solid grey;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
