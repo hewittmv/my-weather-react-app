@@ -12,7 +12,7 @@ function App() {
       <div className="container">
         <div className="city-Weather">
           <Search />
-          <button>Here</button>
+          <button></button>
           <h6>Last Updated: 18/09/23 18:08 </h6>
           <h2>New York</h2>
           <p>🌤️ Sunny </p>
