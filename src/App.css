@@ -82,5 +82,6 @@ li {
   display: inline-block;
 }
 .text-input {
-  width: 180px;
+  width: 250px;
+  height: 30px;
 }
