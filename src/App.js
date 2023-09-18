@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <div className="container">
-        <div className="cityWeather">
+        <div className="city-Weather">
           <Search />
         </div>
       </div>
@@ -22,6 +22,10 @@ function App() {
       >
         Open Source Code by Victoria HM
       </a>
+      <footer className="App-footer">
+        <h3>Weather App</h3>
+        <img src={logo} className="App-logo" alt="logo" />
+      </footer>
     </div>
   );
 }
