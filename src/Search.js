@@ -10,7 +10,7 @@ export default function Search() {
           className="text-input"
         />{" "}
         {""}
-        <input type="Submit" value="Search" />
+        <input type="Submit" value="Search" className="search-button" />
       </form>
     </div>
   );
