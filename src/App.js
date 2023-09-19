@@ -43,6 +43,28 @@ function App() {
             </ul>
           </div>
         </div>
+        <div className="forecast-grid">
+          <div className="box-3">
+            Mon
+            <div>🌤️</div>
+          </div>
+          <div className="box-4">
+            Tue
+            <div>🌦️</div>
+          </div>
+          <div className="box-5">
+            Wed
+            <div>☁️</div>
+          </div>
+          <div className="box-6">
+            Thu
+            <div>❄️</div>
+          </div>
+          <div className="box-7">
+            Fri
+            <div>🌤️</div>
+          </div>
+        </div>
       </div>
 
       <footer className="App-footer">
