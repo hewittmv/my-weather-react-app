@@ -57,15 +57,12 @@ button {
   border: 1px solid #ecd2d2;
   background-color: #db5110;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 1px #ca1010, 1px 0px 0px 2px #86200f;
-  padding: 2%;
-  transform: rotate(135deg);
-  font-weight: bold;
-  font-size: 15px;
+  box-shadow: 0px 1px 1px #ca1010, 0px 2px 2px #060100;
+  padding: 1%;
   cursor: pointer;
   display: inline-flex;
   margin-left: 20%;
-  margin-top: 1%;
+  margin-top: 2%;
 }
 
 li {
@@ -78,13 +75,15 @@ li {
   backdrop-filter: blur(60px);
 }
 .form {
-  margin-top: 2%;
+  margin-top: 1%;
   margin-left: 4%;
   display: inline-block;
 }
 .text-input {
   width: 250px;
   height: 30px;
+  border: 1.5px solid #e2e4e0;
+  border-left: 1.5px solid #52565e;
 }
 .search-button {
   height: 30px;

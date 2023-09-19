@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Search from "./Search";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLocationCrosshairs } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
@@ -23,7 +23,11 @@ function App() {
       <div className="city-weather">
         <Search />
         <button>
-          <FontAwesomeIcon icon={faEnvelope} />
+          <FontAwesomeIcon
+            icon={faLocationCrosshairs}
+            size="2xl"
+            style={{ color: "#f5f2f0" }}
+          />
         </button>
         <h6>Last Updated: 18/09/23 18:08 </h6>
         <h2>New York</h2>
