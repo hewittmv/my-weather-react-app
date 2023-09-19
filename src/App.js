@@ -26,7 +26,7 @@ function App() {
         <p>🌤️ Sunny </p>
         <div>
           <ul>
-            <li>Min: 18°C</li>
+            <li>Min: 20°C</li>
             <li>Max: 25°C </li>
             <li>Wind: 5km/h</li>
           </ul>
