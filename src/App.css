@@ -60,6 +60,9 @@ button {
   box-shadow: 0px 1px 1px #ca1010, 0px 2px 2px #060100;
   padding: 0.5%;
   cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 20px;
 }
 
 li {
