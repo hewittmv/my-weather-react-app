@@ -21,14 +21,16 @@ function App() {
       </header>
 
       <div className="city-weather">
-        <Search />
-        <button>
-          <FontAwesomeIcon
-            icon={faLocationCrosshairs}
-            size="2xl"
-            style={{ color: "#f5f2f0" }}
-          />
-        </button>
+        <div className="search-buttons">
+          <Search />
+          <button>
+            <FontAwesomeIcon
+              icon={faLocationCrosshairs}
+              size="2xl"
+              style={{ color: "#f5f2f0" }}
+            />
+          </button>
+        </div>
         <h6>Last Updated: 18/09/23 18:08 </h6>
 
         <div className="forecast-grid">

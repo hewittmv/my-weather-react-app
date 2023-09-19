@@ -58,11 +58,8 @@ button {
   background-color: #db5110;
   border-radius: 50%;
   box-shadow: 0px 1px 1px #ca1010, 0px 2px 2px #060100;
-  padding: 1%;
+  padding: 0.5%;
   cursor: pointer;
-  display: inline-flex;
-  margin-left: 20%;
-  margin-top: 2%;
 }
 
 li {
@@ -80,8 +77,6 @@ h6 {
 }
 .form {
   margin-top: 1%;
-  margin-left: 1%;
-  display: inline-block;
 }
 .text-input {
   width: 250px;
@@ -94,6 +89,7 @@ h6 {
   color: #1a1a14;
   box-shadow: 0 1px 1px #163772, 0 2px 2px #c96508, 0 3px 3px #784606;
 }
+
 .weather-grid {
   margin-top: 4%;
   display: grid;
@@ -102,13 +98,14 @@ h6 {
 }
 .box-1 {
   display: flex;
+  text-align: center;
 }
 .box-2 {
   line-height: 50px;
 }
 h2 {
   padding: 0;
-  margin: 0;
+  margin-left: 20%;
 }
 .forecast-grid {
   margin-top: 1%;
