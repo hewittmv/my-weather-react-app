@@ -68,6 +68,10 @@ button {
 li {
   list-style: none;
 }
+h6 {
+  text-align: left;
+  margin-left: 4%;
+}
 .city-weather {
   border: 1px solid grey;
   margin: 5% 10% 10% 5%;
@@ -76,7 +80,7 @@ li {
 }
 .form {
   margin-top: 1%;
-  margin-left: 4%;
+  margin-left: 1%;
   display: inline-block;
 }
 .text-input {
@@ -87,7 +91,18 @@ li {
 }
 .search-button {
   height: 30px;
-
   color: #1a1a14;
   box-shadow: 0 1px 1px #163772, 0 2px 2px #c96508, 0 3px 3px #784606;
+}
+.weather-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.box-1 {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  padding: 0;
+  margin: 0;
 }
