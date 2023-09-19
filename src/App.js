@@ -30,19 +30,7 @@ function App() {
           />
         </button>
         <h6>Last Updated: 18/09/23 18:08 </h6>
-        <div className="weather-grid">
-          <div className="box-1">
-            <h2>New York</h2>
-            <p>🌤️ Sunny </p>
-          </div>
-          <div className="box-2">
-            <ul>
-              <li>Min: 20°C</li>
-              <li>Max: 25°C </li>
-              <li>Wind: 5km/h</li>
-            </ul>
-          </div>
-        </div>
+
         <div className="forecast-grid">
           <div className="box-3">
             Mon
