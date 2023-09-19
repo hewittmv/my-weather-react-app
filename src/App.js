@@ -12,7 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <a
           className="github-link"
-          href="https://reactjs.org"
+          href="https://github.com/hewittmv/my-weather-react-app"
           target="_blank"
           rel="noopener noreferrer"
         >
