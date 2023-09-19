@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Search from "./Search";
+import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 
 function App() {
   return (
@@ -20,7 +21,13 @@ function App() {
 
       <div className="city-weather">
         <Search />
-        <button></button>
+        <button>
+          <FontAwesomeIcon
+            icon="fa-regular fa-location-crosshairs"
+            size="sm"
+            style={{ color: "#ef720b" }}
+          />
+        </button>
         <h6>Last Updated: 18/09/23 18:08 </h6>
         <h2>New York</h2>
         <p>🌤️ Sunny </p>

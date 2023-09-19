@@ -56,7 +56,7 @@ h1,
 button {
   border: 1px solid #ecd2d2;
   background-color: #db5110;
-  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  border-radius: 50%;
   box-shadow: 0px 0px 0px 1px #ca1010, 1px 0px 0px 2px #86200f;
   padding: 2%;
   transform: rotate(135deg);
