@@ -101,7 +101,8 @@ h6 {
 }
 .box-1 {
   display: flex;
-  text-align: center;
+  text-align: start;
+  flex-direction: column;
 }
 .box-2 {
   line-height: 50px;

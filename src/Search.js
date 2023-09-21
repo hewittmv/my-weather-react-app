@@ -81,22 +81,22 @@ export default function Search() {
           <div className="box-1">
             <h2>
               {" "}
-              <em>City</em>{" "}
+              <em>New York </em>{" "}
             </h2>
             <p>
               {" "}
-              __ °C
+              🌡️°C
               {""}
               <p>
-                <em>weather description </em>
+                <em>find out the weather🍂 </em>
               </p>
             </p>
           </div>
           <div className="box-2">
             <ul>
-              <li>Min: {""}°C </li>
-              <li>Max: {""}°C </li>
-              <li>Wind: {""}km/h</li>
+              <li>Min: 🌡️°C </li>
+              <li>Max: 🌡️°C </li>
+              <li>Wind: 🍂km/h</li>
             </ul>
           </div>
         </div>
