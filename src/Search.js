@@ -79,10 +79,10 @@ export default function Search() {
         {form}
         <div className="weather-grid">
           <div className="box-1">
-            <h2>
+            <h1>
               {" "}
               <em>New York </em>{" "}
-            </h2>
+            </h1>
             <p>
               {" "}
               🌡️°C
