@@ -51,13 +51,13 @@ export default function Search() {
         <div className="weather-grid">
           <div className="box-1">
             <h2>{city}</h2>
-            <p>
-              <img src={weather.icon} alt="weather icon" /> <br />{" "}
-              {weather.description} {Math.round(weather.temp)}°C
-              {""}
-            </p>
+            <img src={weather.icon} alt="weather icon" />
           </div>
           <div className="box-2">
+            <p>{Math.round(weather.temp)}°C</p>
+            <p>{weather.description}</p>
+          </div>
+          <div className="box-3">
             <ul>
               <li>
                 <strong>Min:</strong> {Math.round(weather.minTemp)}°C{" "}
@@ -92,7 +92,7 @@ export default function Search() {
               </p>
             </p>
           </div>
-          <div className="box-2">
+          <div className="box-3">
             <ul>
               <li>Min: 🌡️°C </li>
               <li>Max: 🌡️°C </li>
