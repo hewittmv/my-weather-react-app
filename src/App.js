@@ -34,23 +34,23 @@ function App() {
         <h6>Last Updated: 18/09/23 18:08 </h6>
 
         <div className="forecast-grid">
-          <div className="box-3">
+          <div className="box-1">
             Mon
             <div>🌤️</div>
           </div>
-          <div className="box-4">
+          <div className="box-2">
             Tue
             <div>🌦️</div>
           </div>
-          <div className="box-5">
+          <div className="box-3">
             Wed
             <div>☁️</div>
           </div>
-          <div className="box-6">
+          <div className="box-4">
             Thu
             <div>❄️</div>
           </div>
-          <div className="box-7">
+          <div className="box-5">
             Fri
             <div>🌤️</div>
           </div>

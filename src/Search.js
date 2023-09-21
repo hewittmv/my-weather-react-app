@@ -50,8 +50,10 @@ export default function Search() {
         {form}
         <div className="weather-grid">
           <div className="box-1">
-            <h2>{city}</h2>
-            <img src={weather.icon} alt="weather icon" />
+            <h1>{city}</h1>
+            <div className="weather-emoji">
+              <img src={weather.icon} alt="weather icon" />
+            </div>
           </div>
           <div className="box-2">
             <p>{Math.round(weather.temp)}°C</p>
